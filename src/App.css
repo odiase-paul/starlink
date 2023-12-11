@@ -1,38 +1,281 @@
-.App {
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  scroll-behavior: smooth;
+}
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  body {
+    font-size: 0.7rem;
+  }
+}
+
+.residential {
+  padding-bottom: 2px;
+  border-bottom: 1px solid #fff;
+}
+.bg {
+  height: 100%;
+  /* width: 100%; */
+  background-image: url(./image/Marketing_LandingFeatured_Redesign.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  object-position: center center;
+  background-position: 50%;
+}
+ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.icon-white {
+  color: #fff;
+}
+hr {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.nav-item {
+  margin-top: 10px;
+  font-size: 13px;
+  margin-left: 43px;
+  font-weight: bolder;
+  font-family: 14px/26px "Roboto", sans-serif;
+}
+.move {
+  margin-left: -40px;
+}
+.margin {
+  margin-left: 80px;
+}
+a:hover {
+  color: #fff;
+}
+.collapse {
+  margin-left: 5%;
+}
+.logo {
+  margin-left: 4%;
+}
+a img {
+  bottom: 5px;
+}
+.order {
+  max-width: 650px;
+  margin: auto;
   text-align: center;
+  padding: 0 20px;
+}
+.order p,
+.travel p {
+  margin-top: 30px;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.starlink h1,
+.stream h1,
+.travel h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 260%;
+  font-style: normal;
+  letter-spacing: -1px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.label {
+  margin-top: 62%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.label-input {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  column-gap: 20px;
+}
+.order-star,
+.label button {
+  border-radius: 3px;
+}
+.order-star {
+  width: 68%;
+  border-color: #b8b8b8;
+  line-height: 50px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #fff;
+  padding: 0 28px;
+  cursor: text;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(252, 249, 249, 0.1);
+}
+.label button {
+  line-height: 50px;
+  border: none;
+  font-weight: 600;
+  font-size: 13px;
+  width: 30%;
+}
+.landing-footer p {
+  font-weight: 500;
+  font-size: 14px;
+  opacity: 1;
 }
 
-.App-link {
-  color: #61dafb;
+footer,
+footer a {
+  color: #888;
+  font-size: 12px;
+}
+footer a {
+  color: #fff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width: 959px) {
+  .label-input {
+    display: flex;
+    flex-direction: column;
+    /* box-sizing: border-box; */
   }
-  to {
-    transform: rotate(360deg);
+  .order-star {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  .label button {
+    width: 100%;
+  }
+  .order p {
+    margin-top: 20px;
+  }
+  .landing-footer {
+    margin-top: 5px;
+  }
+}
+
+.bg-two {
+  height: 100vh;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
+  object-position: center center;
+  background-position: 50%;
+}
+
+.first-bg-left {
+  background-image: url(./image/Marketing_LandingStreaming_Redesign_Mobile.webp);
+}
+
+.first-bg-right,
+.second-bg-left {
+  background-color: #000000;
+}
+
+.stream {
+  padding: 10%;
+}
+
+.stream h1 {
+  font-size: 250%;
+}
+.pad {
+  padding-right: 19%;
+}
+.stream p {
+  margin-top: 30px;
+  font-size: 15px;
+  font-weight: 300;
+}
+.stream button,
+.travel button {
+  border-radius: 3px;
+  border: 2px solid #fff;
+  background-color: #000000;
+  color: #fff;
+  width: 65%;
+  padding: 12px 0;
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 700px) {
+  .stream,
+  .pad {
+    padding: 0 10px;
+  }
+  .pad button {
+    width: 100%;
+  }
+}
+.second-bg-right {
+  background-image: url(./image/Marketing_LandingPlugin_Next.webp);
+}
+
+.pad a {
+  color: #fff;
+}
+.pad-sec {
+  padding: 0 9.5%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .pad-sec {
+    padding: 0 10px;
+  }
+  .second-bg-right {
+    order: -1;
+  }
+}
+.fourth-bg-left {
+  background-image: url(./image/Marketing_LandingHighspeed_Mobile_Next.webp);
+  background-position: bottom;
+}
+.fourth {
+  padding-right: 20%;
+}
+.bgFive {
+  background-image: url(./image/Marketing_LandingTravel_Redesign.webp);
+}
+@media only screen and (max-width: 1200px) {
+  .fourth {
+    padding: 0 10px;
+  }
+}
+
+.travel button {
+  width: 70%;
+  font-size: 14px;
+  background: transparent;
+}
+.travel h1 {
+  font-weight: 600;
+  font-size: 250%;
+  line-height: 1;
+}
+
+.travel {
+  padding: 0 60% 0 11%;
+}
+@media only screen and (max-width: 1200px) {
+  .travel {
+    padding: 0 10%;
+  }
+  .bgFive {
+    text-align: justify;
+  }
+  .travel button {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .travel {
+    padding: 0 8%;
   }
 }
