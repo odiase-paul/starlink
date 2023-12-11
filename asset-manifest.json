@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/starlink/static/css/main.92d09e8b.css",
+    "main.js": "/starlink/static/js/main.93cb5af8.js",
+    "static/js/787.15ed2070.chunk.js": "/starlink/static/js/787.15ed2070.chunk.js",
+    "static/media/Marketing_LandingFeatured_Redesign.webp": "/starlink/static/media/Marketing_LandingFeatured_Redesign.2fe637b4e44600845b03.webp",
+    "static/media/Marketing_LandingTravel_Redesign.webp": "/starlink/static/media/Marketing_LandingTravel_Redesign.997f35f0732ccf5565cb.webp",
+    "static/media/Marketing_LandingStreaming_Redesign_Mobile.webp": "/starlink/static/media/Marketing_LandingStreaming_Redesign_Mobile.b29f334e17a605af01bd.webp",
+    "static/media/Marketing_LandingHighspeed_Mobile_Next.webp": "/starlink/static/media/Marketing_LandingHighspeed_Mobile_Next.7a9f0a6841f448fa12da.webp",
+    "static/media/Marketing_LandingPlugin_Next.webp": "/starlink/static/media/Marketing_LandingPlugin_Next.4d17048de1a83f44e14a.webp",
+    "index.html": "/starlink/index.html",
+    "main.92d09e8b.css.map": "/starlink/static/css/main.92d09e8b.css.map",
+    "main.93cb5af8.js.map": "/starlink/static/js/main.93cb5af8.js.map",
+    "787.15ed2070.chunk.js.map": "/starlink/static/js/787.15ed2070.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92d09e8b.css",
+    "static/js/main.93cb5af8.js"
+  ]
+}
